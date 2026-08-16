@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muzzammil Ahmed | Software Engineer & Full-Stack Developer</title>
+    <meta name="description"
+        content="Portfolio of Muzzammil Ahmed, a Software Engineering undergraduate focused on full-stack development, backend systems, and AI-powered applications." />
+    <meta name="author" content="Muzzammil Ahmed" />
+    <meta name="theme-color" content="#1b1917" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ============================================================ -->
+    <!-- PRELOADER -->
+    <!-- ============================================================ -->
+    <div id="preloader" class="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">
+                <!-- Logo SVG -->
+                <svg viewBox="0 0 48 48" width="72" height="72" fill="none">
+                    <rect x="1.5" y="1.5" width="45" height="45" rx="13" stroke="currentColor" stroke-opacity="0.22"
+                        stroke-width="1.5" />
+                    <path d="M13 34V15.5c0-.6.75-.86 1.11-.38L24 28.5l9.89-13.38c.36-.48 1.11-.22 1.11.38V34"
+                        stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" />
+                    <circle cx="24" cy="28.5" r="2.6" fill="var(--accent)" />
+                </svg>
+            </div>
+            <div class="preloader-bar">
+                <div class="preloader-bar-fill"></div>
+            </div>
+            <span class="preloader-label">Muzzammil Ahmed</span>
+        </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- SCROLL PROGRESS -->
+    <!-- ============================================================ -->
+    <div class="scroll-progress" role="progressbar" aria-label="Page scroll progress">
+        <div class="scroll-progress-fill"></div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- CUSTOM CURSOR -->
+    <!-- ============================================================ -->
+    <div class="custom-cursor" aria-hidden="true">
+        <div class="cursor-dot"></div>
+        <div class="cursor-ring"></div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- NAVBAR -->
+    <!-- ============================================================ -->
+    <header class="navbar" id="navbar">
+        <nav class="navbar-inner" aria-label="Primary">
+            <button class="navbar-logo" data-target="home" aria-label="Muzzammil Ahmed — home">
+                <span class="logo-wrapper">
+                    <svg viewBox="0 0 48 48" width="40" height="40" fill="none">
+                        <rect x="1.5" y="1.5" width="45" height="45" rx="13" stroke="currentColor" stroke-opacity="0.22"
+                            stroke-width="1.5" />
+                        <path d="M13 34V15.5c0-.6.75-.86 1.11-.38L24 28.5l9.89-13.38c.36-.48 1.11-.22 1.11.38V34"
+                            stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" />
+                        <circle cx="24" cy="28.5" r="2.6" fill="var(--accent)" />
+                    </svg>
+                </span>
+                <span class="navbar-name">Muzzammil</span>
+            </button>
+
+            <ul class="navbar-links">
+                <li><button class="nav-link active" data-target="home">Home</button></li>
+                <li><button class="nav-link" data-target="about">About</button></li>
+                <li><button class="nav-link" data-target="skills">Skills</button></li>
+                <li><button class="nav-link" data-target="experience">Experience</button></li>
+                <li><button class="nav-link" data-target="projects">Projects</button></li>
+                <li><button class="nav-link" data-target="services">Services</button></li>
+                <li><button class="nav-link" data-target="contact">Contact</button></li>
+            </ul>
+
+            <div class="navbar-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Switch theme">
+                    <!-- Theme toggle SVG will be injected by JS -->
+                </button>
+                <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+                    <span class="menu-icon">
+                        <span class="menu-bar top"></span>
+                        <span class="menu-bar bottom"></span>
+                    </span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ============================================================ -->
+    <!-- MOBILE MENU -->
+    <!-- ============================================================ -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-inner">
+            <ul class="mobile-menu-links">
+                <li><button class="mobile-nav-link" data-target="home"><span class="mobile-index">01</span>Home</button>
+                </li>
+                <li><button class="mobile-nav-link" data-target="about"><span
+                            class="mobile-index">02</span>About</button></li>
+                <li><button class="mobile-nav-link" data-target="skills"><span
+                            class="mobile-index">03</span>Skills</button></li>
+                <li><button class="mobile-nav-link" data-target="experience"><span
+                            class="mobile-index">04</span>Experience</button></li>
+                <li><button class="mobile-nav-link" data-target="projects"><span
+                            class="mobile-index">05</span>Projects</button></li>
+                <li><button class="mobile-nav-link" data-target="services"><span
+                            class="mobile-index">06</span>Services</button></li>
+                <li><button class="mobile-nav-link" data-target="contact"><span
+                            class="mobile-index">07</span>Contact</button></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- MAIN CONTENT -->
+    <!-- ============================================================ -->
+    <main>
+
+        <!-- ===== HERO SECTION ===== -->
+        <section id="home" class="hero-section grain">
+            <div class="hero-grid-bg" aria-hidden="true"></div>
+            <div class="hero-glow" aria-hidden="true"></div>
+            <div class="hero-container">
+                <div class="hero-content">
+                    <p class="hero-status" data-reveal>
+                        <span class="status-dot"></span>
+                        Available for work · PAF-IAST
+                    </p>
+                    <h1 class="hero-title" data-reveal>Muzzammil Ahmed</h1>
+                    <p class="hero-role" data-reveal>
+                        <span class="role-label">I am a</span>
+                        <span class="role-text" id="typewriter">
+                            <span id="typedText" aria-live="polite">Software Engineer</span>
+                            <span class="caret" aria-hidden="true"></span>
+                        </span>
+                    </p>
+                    <p class="hero-bio" data-reveal>
+                        Software Engineering undergraduate at PAF-IAST building full-stack and AI-powered applications.
+                        I turn ideas into production-grade products spanning frontend interfaces, backend systems, and
+                        intelligent automation.
+                    </p>
+                    <div class="hero-actions" data-reveal>
+                        <button class="btn-primary magnetic-btn" data-target="contact">
+                            Let's Talk
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                        <button class="btn-ghost magnetic-btn" data-target="projects">
+                            View My Work
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </button>
+                        <a href="Muzzammil_Ahmed_Resume(1).pdf" class="btn-resume magnetic-btn"
+                            download="Muzzammil_Ahmed_Resume.pdf">
+                            <i class="fa-solid fa-arrow-down-to-line"></i>
+                            <span>Download Resume</span>
+                            <span class="btn-shine"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-scroll-indicator">
+                <i class="fa-solid fa-computer-mouse"></i>
+                Scroll
+            </div>
+        </section>
+
+        <!-- ===== ABOUT SECTION ===== -->
+        <section id="about" class="section">
+            <div class="section-container">
+                <div class="section-heading" data-reveal>
+                    <div class="heading-row">
+                        <span class="heading-index">01</span>
+                        <span class="heading-rule"></span>
+                        <span class="heading-kicker">Who you're hiring</span>
+                    </div>
+                    <h2 class="heading-title" data-reveal data-delay="0.06">About Me</h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p class="about-lead" data-reveal>
+                            I am a Software Engineering undergraduate at PAF-IAST with a strong interest in full-stack
+                            development, backend systems, and AI-powered applications. I have hands-on experience in
+                            C/C++, JavaScript, and Python, along with working knowledge of SQL and modern web
+                            development frameworks.
+                        </p>
+                        <div class="about-paragraphs" data-reveal>
+                            <p>
+                                I focus on building real-world projects that combine frontend interfaces with backend
+                                logic and database systems. Recently, I completed an internship at Codiro Technologies,
+                                where I contributed to practical development tasks and improved my teamwork,
+                                problem-solving, and software development skills in a professional environment.
+                            </p>
+                            <p>
+                                I have built projects including an AI-powered customer support chatbot and a movie
+                                recommendation system, which strengthened my understanding of APIs, machine learning
+                                concepts, and full-stack application design.
+                            </p>
+                            <p>
+                                Currently, I am expanding my skills in backend development, databases, and AI/ML, with a
+                                focus on building scalable and production-ready applications. I enjoy learning new
+                                technologies, building projects, and continuously improving my technical and
+                                problem-solving abilities.
+                            </p>
+                        </div>
+                    </div>
+
+                    <aside class="about-highlights">
+                        <div class="highlight-item" data-reveal>
+                            <span class="highlight-icon"><i class="fa-solid fa-code"></i></span>
+                            <span class="highlight-label">Software Engineering</span>
+                            <span class="highlight-number">01</span>
+                        </div>
+                        <div class="highlight-item" data-reveal data-delay="0.06">
+                            <span class="highlight-icon"><i class="fa-solid fa-layer-group"></i></span>
+                            <span class="highlight-label">Full-Stack Development</span>
+                            <span class="highlight-number">02</span>
+                        </div>
+                        <div class="highlight-item" data-reveal data-delay="0.12">
+                            <span class="highlight-icon"><i class="fa-solid fa-brain"></i></span>
+                            <span class="highlight-label">AI/ML</span>
+                            <span class="highlight-number">03</span>
+                        </div>
+                        <div class="highlight-item" data-reveal data-delay="0.18">
+                            <span class="highlight-icon"><i class="fa-solid fa-puzzle-piece"></i></span>
+                            <span class="highlight-label">Problem Solving</span>
+                            <span class="highlight-number">04</span>
+                        </div>
+                        <p class="about-meta">PAF-IAST · Software Engineering undergraduate</p>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SKILLS SECTION ===== -->
+        <section id="skills" class="section section-alt">
+            <div class="section-container">
+                <div class="section-heading" data-reveal>
+                    <div class="heading-row">
+                        <span class="heading-index">02</span>
+                        <span class="heading-rule"></span>
+                        <span class="heading-kicker">What I build with</span>
+                    </div>
+                    <h2 class="heading-title" data-reveal data-delay="0.06">Skills &amp; Toolkit</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card" data-reveal>
+                        <div class="skill-header">
+                            <span class="skill-icon"><i class="fa-solid fa-terminal"></i></span>
+                            <span class="skill-number">01</span>
+                        </div>
+                        <h3 class="skill-title">Languages &amp; Frameworks</h3>
+                        <p class="skill-caption">Where the logic gets written</p>
+                        <ul class="skill-tags">
+                            <li>Python</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>C++</li>
+                            <li>SQL</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Bootstrap 5</li>
+                            <li>React.js</li>
+                            <li>Node.js</li>
+                            <li>Python Flask</li>
+                            <li>Streamlit</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card" data-reveal data-delay="0.08">
+                        <div class="skill-header">
+                            <span class="skill-icon"><i class="fa-solid fa-database"></i></span>
+                            <span class="skill-number">02</span>
+                        </div>
+                        <h3 class="skill-title">Database &amp; Tools</h3>
+                        <p class="skill-caption">Where the work gets shipped</p>
+                        <ul class="skill-tags">
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+                            <li>Git</li>
+                            <li>GitHub</li>
+                            <li>VS Code</li>
+                            <li>Ubuntu Linux</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card" data-reveal data-delay="0.16">
+                        <div class="skill-header">
+                            <span class="skill-icon"><i class="fa-solid fa-microchip"></i></span>
+                            <span class="skill-number">03</span>
+                        </div>
+                        <h3 class="skill-title">AI &amp; Data</h3>
+                        <p class="skill-caption">Where the systems get smart</p>
+                        <ul class="skill-tags">
+                            <li>API Integration</li>
+                            <li>Data Analysis</li>
+                            <li>Gen AI</li>
+                            <li>Prompt Engineering</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== EXPERIENCE SECTION ===== -->
+        <section id="experience" class="section">
+            <div class="section-container">
+                <div class="section-heading" data-reveal>
+                    <div class="heading-row">
+                        <span class="heading-index">03</span>
+                        <span class="heading-rule"></span>
+                        <span class="heading-kicker">Where I've worked</span>
+                    </div>
+                    <h2 class="heading-title" data-reveal data-delay="0.06">Work Experience</h2>
+                </div>
+
+                <div class="experience-timeline">
+                    <div class="timeline-line"></div>
+                    <div class="timeline-line-accent"></div>
+
+                    <ol class="experience-list">
+                        <li class="experience-item" data-reveal>
+                            <span class="timeline-dot"></span>
+                            <article class="experience-card">
+                                <div class="experience-header">
+                                    <div>
+                                        <h3 class="experience-role">Artificial Intelligence Intern</h3>
+                                        <p class="experience-org">Optimus Automate</p>
+                                    </div>
+                                    <div class="experience-meta">
+                                        <span class="experience-period">Jun 2026 – Jul 2026</span>
+                                        <span class="experience-badge">Remote</span>
+                                    </div>
+                                </div>
+                                <p class="experience-description">
+                                    Contributing to AI-powered automation projects with hands-on experience in machine
+                                    learning workflows, intelligent system design, and API integration. Applying Python
+                                    and AI/ML concepts to real-world automation tasks, building practical understanding
+                                    of production-grade AI application development.
+                                </p>
+                            </article>
+                        </li>
+
+                        <li class="experience-item" data-reveal data-delay="0.08">
+                            <span class="timeline-dot"></span>
+                            <article class="experience-card">
+                                <div class="experience-header">
+                                    <div>
+                                        <h3 class="experience-role">Front-End Developer Intern</h3>
+                                        <p class="experience-org">Codiro Technologies</p>
+                                    </div>
+                                    <div class="experience-meta">
+                                        <span class="experience-period">Jul 2025 – Aug 2025</span>
+                                        <span class="experience-badge">Onsite</span>
+                                    </div>
+                                </div>
+                                <p class="experience-description">
+                                    Translated Figma/UI designs into responsive, pixel-accurate interfaces using HTML5,
+                                    CSS3, and JavaScript; enforced cross-browser compatibility and mobile-first
+                                    standards.
+                                    Debugged UI issues alongside senior developers; practised clean code, Git version
+                                    control, and agile team collaboration.
+                                </p>
+                            </article>
+                        </li>
+
+                        <li class="experience-item" data-reveal data-delay="0.16">
+                            <span class="timeline-dot"></span>
+                            <article class="experience-card">
+                                <div class="experience-header">
+                                    <div>
+                                        <h3 class="experience-role">Academic Tutor</h3>
+                                        <p class="experience-org">Self-Employed</p>
+                                        <p class="experience-subtitle">Maths, Physics, CS, Chemistry &amp; English</p>
+                                    </div>
+                                    <div class="experience-meta">
+                                        <span class="experience-period">Aug 2021 – Present</span>
+                                        <span class="experience-badge">Part-Time · Grades 9–12</span>
+                                    </div>
+                                </div>
+                                <p class="experience-description">
+                                    Delivered structured one-on-one instruction across five subjects; designed tailored
+                                    lesson plans that measurably improved exam results and concept retention.
+                                </p>
+                            </article>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROJECTS SECTION ===== -->
+        <section id="projects" class="section section-alt">
+            <div class="section-container">
+                <div class="section-heading" data-reveal>
+                    <div class="heading-row">
+                        <span class="heading-index">04</span>
+                        <span class="heading-rule"></span>
+                        <span class="heading-kicker">Things I've shipped</span>
+                    </div>
+                    <h2 class="heading-title" data-reveal data-delay="0.06">Selected Projects</h2>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card" data-reveal data-project>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <span class="project-number">01</span>
+                                <span class="project-category">Full-Stack · AI</span>
+                            </div>
+                            <h3 class="project-title">SmartLearn</h3>
+                            <p class="project-subtitle">AI-Powered Study Platform</p>
+                            <p class="project-description">
+                                Full-stack student productivity platform unifying course management, AI note
+                                summarization, task tracking, quiz practice, and study analytics in a single workspace.
+                                Integrated Gemini AI to auto-generate practice quizzes from user notes and produce
+                                concise study summaries, enforcing active recall.
+                            </p>
+                            <ul class="project-tech">
+                                <li>React</li>
+                                <li>TypeScript</li>
+                                <li>Node.js</li>
+                                <li>Express</li>
+                                <li>Gemini AI API</li>
+                            </ul>
+                            <a href="https://github.com/muzzammilahmed18/SmartLearn" target="_blank" rel="noreferrer noopener" class="project-link">
+                                <i class="fa-brands fa-github"></i>
+                                View on GitHub
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                        <div class="project-visual">
+                            <div class="project-visual-inner">
+                                <span class="project-visual-category">Full-Stack · AI</span>
+                                <p class="project-visual-title">SmartLearn</p>
+                                <p class="project-visual-subtitle">AI-Powered Study Platform</p>
+                                <div class="project-visual-tech">
+                                    <span>React</span>
+                                    <span>TypeScript</span>
+                                    <span>Node.js</span>
+                                    <span>Express</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card" data-reveal data-delay="0.08" data-project>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <span class="project-number">02</span>
+                                <span class="project-category">Full-Stack · Systems</span>
+                            </div>
+                            <h3 class="project-title">RideFleet Pro</h3>
+                            <p class="project-subtitle">Fleet Management &amp; Ride Booking System</p>
+                            <p class="project-description">
+                                Full-stack ride-hailing platform with 3 role-based portals (Admin, Driver, Customer),
+                                OTP verification, GPS-based automatic driver assignment, digital wallet with 5 payment
+                                methods, fare negotiation, ratings system, and an analytics dashboard.
+                            </p>
+                            <ul class="project-tech">
+                                <li>Python Flask</li>
+                                <li>MySQL</li>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <a href="https://github.com/muzzammilahmed18/ridefleet-pro" target="_blank" rel="noreferrer noopener" class="project-link">
+                                <i class="fa-brands fa-github"></i>
+                                View on GitHub
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                        <div class="project-visual">
+                            <div class="project-visual-inner">
+                                <span class="project-visual-category">Full-Stack · Systems</span>
+                                <p class="project-visual-title">RideFleet Pro</p>
+                                <p class="project-visual-subtitle">Fleet Management &amp; Ride Booking System</p>
+                                <div class="project-visual-tech">
+                                    <span>Python Flask</span>
+                                    <span>MySQL</span>
+                                    <span>HTML5</span>
+                                    <span>CSS3</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card" data-reveal data-delay="0.16" data-project>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <span class="project-number">03</span>
+                                <span class="project-category">AI · Conversational</span>
+                            </div>
+                            <h3 class="project-title">AI Customer Support Chatbot</h3>
+                            <p class="project-subtitle">Intent-Aware Support Assistant</p>
+                            <p class="project-description">
+                                Customer support chatbot that recognizes common user intents such as greetings, pricing
+                                inquiries, complaints, and support requests. Provides predefined responses for known
+                                queries and integrates Groq's LLaMA model to generate intelligent responses for unknown
+                                questions.
+                            </p>
+                            <ul class="project-tech">
+                                <li>Python</li>
+                                <li>Streamlit</li>
+                                <li>Groq LLaMA API</li>
+                            </ul>
+                            <a href="https://github.com/muzzammilahmed18/chatbot-intent-recognition" target="_blank" rel="noreferrer noopener" class="project-link">
+                                <i class="fa-brands fa-github"></i>
+                                View on GitHub
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                        <div class="project-visual">
+                            <div class="project-visual-inner">
+                                <span class="project-visual-category">AI · Conversational</span>
+                                <p class="project-visual-title">AI Customer Support Chatbot</p>
+                                <p class="project-visual-subtitle">Intent-Aware Support Assistant</p>
+                                <div class="project-visual-tech">
+                                    <span>Python</span>
+                                    <span>Streamlit</span>
+                                    <span>Groq LLaMA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SERVICES SECTION ===== -->
+        <section id="services" class="section">
+            <div class="section-container">
+                <div class="section-heading" data-reveal>
+                    <div class="heading-row">
+                        <span class="heading-index">05</span>
+                        <span class="heading-rule"></span>
+                        <span class="heading-kicker">How I can help</span>
+                    </div>
+                    <h2 class="heading-title" data-reveal data-delay="0.06">Services</h2>
+                </div>
+
+                <div class="services-grid">
+                    <button class="service-card" data-reveal data-target="contact">
+                        <span class="service-number">01</span>
+                        <span class="service-icon"><i class="fa-solid fa-code"></i></span>
+                        <h3 class="service-title">Web Development</h3>
+                        <p class="service-description">Full-stack web applications with modern frameworks</p>
+                        <span class="service-cta">Start a project <i class="fa-solid fa-arrow-right"></i></span>
+                    </button>
+
+                    <button class="service-card" data-reveal data-delay="0.06" data-target="contact">
+                        <span class="service-number">02</span>
+                        <span class="service-icon"><i class="fa-solid fa-diagram-project"></i></span>
+                        <h3 class="service-title">C/C++ Programming</h3>
+                        <p class="service-description">System-level programming, DSA, and performance-critical
+                            applications</p>
+                        <span class="service-cta">Discuss the problem <i class="fa-solid fa-arrow-right"></i></span>
+                    </button>
+
+                    <button class="service-card" data-reveal data-delay="0.12" data-target="contact">
+                        <span class="service-number">03</span>
+                        <span class="service-icon"><i class="fa-solid fa-chalkboard-user"></i></span>
+                        <h3 class="service-title">Online Tutoring</h3>
+                        <p class="service-description">One-on-one sessions for Maths, Physics, CS, Chemistry &amp;
+                            English (Grades 9–12)</p>
+                        <span class="service-cta">Book a session <i class="fa-solid fa-arrow-right"></i></span>
+                    </button>
+
+                    <button class="service-card" data-reveal data-delay="0.18" data-target="contact">
+                        <span class="service-number">04</span>
+                        <span class="service-icon"><i class="fa-solid fa-house-laptop"></i></span>
+                        <h3 class="service-title">Home / Physical Tutoring</h3>
+                        <p class="service-description">In-person tutoring services (available locally)</p>
+                        <span class="service-cta">Check availability <i class="fa-solid fa-arrow-right"></i></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT SECTION ===== -->
+        <section id="contact" class="section contact-section">
+            <div class="contact-glow" aria-hidden="true"></div>
+            <div class="section-container">
+                <div class="section-heading" data-reveal>
+                    <div class="heading-row">
+                        <span class="heading-index">06</span>
+                        <span class="heading-rule"></span>
+                        <span class="heading-kicker">Contact</span>
+                    </div>
+                    <h2 class="heading-title" data-reveal data-delay="0.06">Let's Build Something Together</h2>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <p class="contact-text" data-reveal>
+                            Have a project, an internship, a freelance build, or a tutoring enquiry? Send a
+                            message and I'll get back to you.
+                        </p>
+                        <div class="contact-social" data-reveal data-delay="0.06">
+                            <p class="contact-social-label">Find me here</p>
+                            <ul class="social-links">
+                                <li><a href="https://wa.me/923140593609" target="_blank" rel="noreferrer noopener"
+                                        aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/muzzammil-ahmed-2b0013370/" target="_blank"
+                                        rel="noreferrer noopener" aria-label="LinkedIn"><i
+                                            class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href="mailto:m89015294@gmail.com" aria-label="Email"><i
+                                            class="fa-solid fa-envelope"></i></a></li>
+                                <li><a href="https://github.com/muzzammilahmed18" target="_blank"
+                                        rel="noreferrer noopener" aria-label="GitHub"><i
+                                            class="fa-brands fa-github"></i></a></li>
+                            </ul>
+                        </div>
+                        <p class="contact-location" data-reveal data-delay="0.1">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Taxila, Punjab, Pakistan · Available remotely
+                        </p>
+                    </div>
+
+                    <form class="contact-form" id="contactForm" data-reveal novalidate>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your name" class="form-input" />
+                                <span class="form-error" id="name-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" placeholder="you@example.com"
+                                    class="form-input" />
+                                <span class="form-error" id="email-error"></span>
+                            </div>
+                            <div class="form-group full-width">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="What is this about?"
+                                    class="form-input" />
+                                <span class="form-error" id="subject-error"></span>
+                            </div>
+                            <div class="form-group full-width">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" rows="5" maxlength="1000"
+                                    placeholder="Tell me a little about what you need…"
+                                    class="form-input form-textarea"></textarea>
+                                <span class="form-error" id="message-error"></span>
+                            </div>
+                        </div>
+                        <div class="form-actions">
+                            <button type="submit" class="btn-primary submit-btn" id="submitBtn">
+                                Send Message
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                            <span class="form-success" id="formSuccess">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Message captured — no email service is connected yet.
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================================================ -->
+    <!-- FOOTER -->
+    <!-- ============================================================ -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <svg viewBox="0 0 48 48" width="44" height="44" fill="none">
+                            <rect x="1.5" y="1.5" width="45" height="45" rx="13" stroke="currentColor"
+                                stroke-opacity="0.22" stroke-width="1.5" />
+                            <path d="M13 34V15.5c0-.6.75-.86 1.11-.38L24 28.5l9.89-13.38c.36-.48 1.11-.22 1.11.38V34"
+                                stroke="currentColor" stroke-width="2.6" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <circle cx="24" cy="28.5" r="2.6" fill="var(--accent)" />
+                        </svg>
+                        <div>
+                            <p class="footer-name">Muzzammil Ahmed</p>
+                            <p class="footer-title">Software Engineer · Full-Stack · AI</p>
+                        </div>
+                    </div>
+                    <p class="footer-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Taxila, Punjab, Pakistan · Available remotely
+                    </p>
+                    <ul class="footer-social">
+                        <li><a href="https://wa.me/923140593609" target="_blank" rel="noreferrer noopener"
+                                aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/muzzammil-ahmed-2b0013370/" target="_blank"
+                                rel="noreferrer noopener" aria-label="LinkedIn"><i
+                                    class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="mailto:m89015294@gmail.com" aria-label="Email"><i
+                                    class="fa-solid fa-envelope"></i></a></li>
+                        <li><a href="https://github.com/muzzammilahmed18" target="_blank" rel="noreferrer noopener"
+                                aria-label="GitHub"><i class="fa-brands fa-github"></i></a></li>
+                    </ul>
+                </div>
+
+                <nav class="footer-nav" aria-label="Footer">
+                    <ul>
+                        <li><button class="footer-link" data-target="home">Home</button></li>
+                        <li><button class="footer-link" data-target="about">About</button></li>
+                        <li><button class="footer-link" data-target="skills">Skills</button></li>
+                        <li><button class="footer-link" data-target="experience">Experience</button></li>
+                        <li><button class="footer-link" data-target="projects">Projects</button></li>
+                        <li><button class="footer-link" data-target="services">Services</button></li>
+                        <li><button class="footer-link" data-target="contact">Contact</button></li>
+                    </ul>
+                    <button class="back-to-top" id="backToTop">
+                        <i class="fa-solid fa-arrow-up"></i>
+                        Back to top
+                    </button>
+                </nav>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Muzzammil Ahmed. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
