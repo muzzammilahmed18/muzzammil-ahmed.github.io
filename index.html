@@ -31,7 +31,6 @@
     <div id="preloader" class="preloader">
         <div class="preloader-content">
             <div class="preloader-logo">
-                <!-- Logo SVG -->
                 <svg viewBox="0 0 48 48" width="72" height="72" fill="none">
                     <rect x="1.5" y="1.5" width="45" height="45" rx="13" stroke="currentColor" stroke-opacity="0.22"
                         stroke-width="1.5" />
@@ -92,7 +91,6 @@
 
             <div class="navbar-actions">
                 <button class="theme-toggle" id="themeToggle" aria-label="Switch theme">
-                    <!-- Theme toggle SVG will be injected by JS -->
                 </button>
                 <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
                     <span class="menu-icon">
@@ -171,6 +169,11 @@
                             <span>Download Resume</span>
                             <span class="btn-shine"></span>
                         </a>
+                        <!-- Book a Call Button -->
+                        <a href="https://calendly.com/m89015294/30min" target="_blank" class="btn-primary magnetic-btn">
+                            <i class="fa-solid fa-calendar-check"></i>
+                            Book a Call
+                        </a>
                     </div>
                 </div>
             </div>
@@ -197,19 +200,19 @@
                         <p class="about-lead" data-reveal>
                             I am a Software Engineering undergraduate at PAF-IAST with a strong interest in full-stack
                             development, backend systems, and AI-powered applications. I have hands-on experience in
-                            C/C++, JavaScript, and Python, along with working knowledge of SQL and modern web
+                            C/C++, JavaScript, TypeScript, and Python, along with working knowledge of SQL and modern web
                             development frameworks.
                         </p>
                         <div class="about-paragraphs" data-reveal>
                             <p>
                                 I focus on building real-world projects that combine frontend interfaces with backend
-                                logic and database systems. Recently, I completed an internship at Codiro Technologies,
-                                where I contributed to practical development tasks and improved my teamwork,
-                                problem-solving, and software development skills in a professional environment.
+                                logic and database systems. Recently, I completed internships at FlyRank AI and Neurofive
+                                Solutions, where I contributed to production-grade APIs, full-stack platforms, and
+                                AI-powered applications.
                             </p>
                             <p>
-                                I have built projects including an AI-powered customer support chatbot and a movie
-                                recommendation system, which strengthened my understanding of APIs, machine learning
+                                I have built projects including a vacation rental platform, a usage-based billing engine,
+                                and a ride-hailing system, which strengthened my understanding of APIs, machine learning
                                 concepts, and full-stack application design.
                             </p>
                             <p>
@@ -271,15 +274,21 @@
                         <ul class="skill-tags">
                             <li>Python</li>
                             <li>JavaScript (ES6+)</li>
+                            <li>TypeScript</li>
                             <li>C++</li>
                             <li>SQL</li>
                             <li>HTML5</li>
                             <li>CSS3</li>
-                            <li>Bootstrap 5</li>
                             <li>React.js</li>
+                            <li>Tailwind CSS</li>
+                            <li>Bootstrap 5</li>
                             <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>FastAPI</li>
                             <li>Python Flask</li>
-                            <li>Streamlit</li>
+                            <li>Vite</li>
+                            <li>Drizzle ORM</li>
+                            <li>Recharts</li>
                         </ul>
                     </article>
 
@@ -291,12 +300,20 @@
                         <h3 class="skill-title">Database &amp; Tools</h3>
                         <p class="skill-caption">Where the work gets shipped</p>
                         <ul class="skill-tags">
+                            <li>PostgreSQL</li>
                             <li>MySQL</li>
                             <li>MongoDB</li>
+                            <li>SQLite</li>
+                            <li>Neon</li>
+                            <li>Docker</li>
                             <li>Git</li>
                             <li>GitHub</li>
                             <li>VS Code</li>
                             <li>Ubuntu Linux</li>
+                            <li>Vercel</li>
+                            <li>Render</li>
+                            <li>Cloudinary</li>
+                            <li>Swagger/OpenAPI</li>
                         </ul>
                     </article>
 
@@ -305,13 +322,21 @@
                             <span class="skill-icon"><i class="fa-solid fa-microchip"></i></span>
                             <span class="skill-number">03</span>
                         </div>
-                        <h3 class="skill-title">AI &amp; Data</h3>
-                        <p class="skill-caption">Where the systems get smart</p>
+                        <h3 class="skill-title">AI, Testing &amp; More</h3>
+                        <p class="skill-caption">Where the systems get smart and reliable</p>
                         <ul class="skill-tags">
-                            <li>API Integration</li>
-                            <li>Data Analysis</li>
-                            <li>Gen AI</li>
+                            <li>OpenAI SDK</li>
+                            <li>OpenRouter</li>
+                            <li>Gemini AI API</li>
+                            <li>LangChain</li>
                             <li>Prompt Engineering</li>
+                            <li>Gen AI</li>
+                            <li>Stripe API</li>
+                            <li>JWT Auth</li>
+                            <li>Vitest</li>
+                            <li>React Testing Library</li>
+                            <li>Supertest</li>
+                            <li>Playwright</li>
                         </ul>
                     </article>
                 </div>
@@ -321,7 +346,7 @@
         <!-- ===== EXPERIENCE SECTION ===== -->
         <section id="experience" class="section">
             <div class="section-container">
-                <div class="section-heading" data-reveal>
+                <div class="section-heading" data-reveal">
                     <div class="heading-row">
                         <span class="heading-index">03</span>
                         <span class="heading-rule"></span>
@@ -335,7 +360,68 @@
                     <div class="timeline-line-accent"></div>
 
                     <ol class="experience-list">
+                        <!-- FlyRank AI -->
                         <li class="experience-item" data-reveal>
+                            <span class="timeline-dot"></span>
+                            <article class="experience-card">
+                                <div class="experience-header">
+                                    <div>
+                                        <h3 class="experience-role">Backend AI Engineering Intern</h3>
+                                        <p class="experience-org">FlyRank AI</p>
+                                    </div>
+                                    <div class="experience-meta">
+                                        <span class="experience-period">Jul 2026 – Present</span>
+                                        <span class="experience-badge">Remote</span>
+                                    </div>
+                                </div>
+                                <p class="experience-description">
+                                    • Designed and built production-grade REST APIs using Python, FastAPI, and Flask with
+                                    Pydantic validation, JWT authentication, SQLite persistence, and Swagger/OpenAPI
+                                    documentation; followed idempotent API design principles throughout.<br />
+                                    • Engineered a resilient web-scraping pipeline (Requests, BeautifulSoup, Pydantic)
+                                    with caching, retry logic, error quarantine, and idempotent processing to ensure
+                                    reliable, duplicate-free data ingestion.<br />
+                                    • Integrated LLM capabilities into a FastAPI microservice via OpenRouter and OpenAI
+                                    Python SDK — implemented structured outputs, prompt versioning, cost/token logging,
+                                    and an LLM kill switch; validated with 8 test cases achieving 100% pass rate.<br />
+                                    • Built a Usage Metering &amp; Billing Engine for SaaS: real-time quota enforcement
+                                    (HTTP 402 on limit breach), accurate monetary calculations with PostgreSQL, and
+                                    Stripe Checkout + webhook integration for automated subscription billing.
+                                </p>
+                            </article>
+                        </li>
+
+                        <!-- Neurofive Solutions -->
+                        <li class="experience-item" data-reveal data-delay="0.06">
+                            <span class="timeline-dot"></span>
+                            <article class="experience-card">
+                                <div class="experience-header">
+                                    <div>
+                                        <h3 class="experience-role">Full-Stack Development Intern</h3>
+                                        <p class="experience-org">Neurofive Solutions</p>
+                                    </div>
+                                    <div class="experience-meta">
+                                        <span class="experience-period">Jul 2026 – Aug 2026</span>
+                                        <span class="experience-badge">Remote</span>
+                                    </div>
+                                </div>
+                                <p class="experience-description">
+                                    • Built component-based frontend applications using React, TypeScript, Vite, and
+                                    Tailwind CSS; implemented Role-Based Access Control (RBAC) with JWT and bcrypt,
+                                    protected Node.js/Express API endpoints, and client-side session management.<br />
+                                    • Engineered Nestly — a full-stack vacation rental platform (React, Node.js, Express,
+                                    PostgreSQL/Neon) — featuring server-side booking conflict prevention, dynamic
+                                    pricing, Cloudinary image pipelines, Recharts host analytics dashboard, and
+                                    production deployment on Vercel and Render via CI/CD.<br />
+                                    • Achieved full-stack test coverage using Vitest, React Testing Library, Supertest,
+                                    and Playwright — spanning component unit tests, REST API integration tests, and
+                                    end-to-end user flow automation.
+                                </p>
+                            </article>
+                        </li>
+
+                        <!-- Optimus Automate -->
+                        <li class="experience-item" data-reveal data-delay="0.12">
                             <span class="timeline-dot"></span>
                             <article class="experience-card">
                                 <div class="experience-header">
@@ -357,7 +443,8 @@
                             </article>
                         </li>
 
-                        <li class="experience-item" data-reveal data-delay="0.08">
+                        <!-- Codiro Technologies -->
+                        <li class="experience-item" data-reveal data-delay="0.18">
                             <span class="timeline-dot"></span>
                             <article class="experience-card">
                                 <div class="experience-header">
@@ -380,7 +467,8 @@
                             </article>
                         </li>
 
-                        <li class="experience-item" data-reveal data-delay="0.16">
+                        <!-- Academic Tutor -->
+                        <li class="experience-item" data-reveal data-delay="0.24">
                             <span class="timeline-dot"></span>
                             <article class="experience-card">
                                 <div class="experience-header">
@@ -418,29 +506,88 @@
                 </div>
 
                 <div class="projects-grid">
-                    <!-- Project 1 -->
+                    <!-- Project 1: Nestly -->
                     <article class="project-card" data-reveal data-project>
                         <div class="project-content">
                             <div class="project-header">
                                 <span class="project-number">01</span>
-                                <span class="project-category">Full-Stack · AI</span>
+                                <span class="project-category">Full-Stack · Vacation Rental</span>
                             </div>
-                            <h3 class="project-title">SmartLearn</h3>
-                            <p class="project-subtitle">AI-Powered Study Platform</p>
+                            <h3 class="project-title">Nestly</h3>
+                            <p class="project-subtitle">Full-Stack Vacation Rental Platform</p>
                             <p class="project-description">
-                                Full-stack student productivity platform unifying course management, AI note
-                                summarization, task tracking, quiz practice, and study analytics in a single workspace.
-                                Integrated Gemini AI to auto-generate practice quizzes from user notes and produce
-                                concise study summaries, enforcing active recall.
+                                Production-deployed vacation rental app with RBAC and JWT authentication, server-side
+                                booking validation preventing date conflicts and race conditions, dynamic pricing engine,
+                                Cloudinary image pipelines, and an interactive Host Analytics Dashboard (Recharts)
+                                showing real-time revenue and booking statistics. Deployed on Vercel (client) and Render
+                                (API) with CI/CD workflows.
                             </p>
                             <ul class="project-tech">
                                 <li>React</li>
                                 <li>TypeScript</li>
+                                <li>Tailwind CSS</li>
                                 <li>Node.js</li>
                                 <li>Express</li>
-                                <li>Gemini AI API</li>
+                                <li>PostgreSQL</li>
+                                <li>Cloudinary</li>
                             </ul>
-                            <a href="https://github.com/muzzammilahmed18/SmartLearn" target="_blank" rel="noreferrer noopener" class="project-link">
+                            <div style="display:flex; gap:0.75rem; flex-wrap:wrap; margin-top:1.75rem;">
+                                <a href="https://nestly-booking-app.vercel.app/" target="_blank" rel="noreferrer noopener"
+                                    class="project-link" style="border-color:var(--accent);">
+                                    <i class="fa-solid fa-globe"></i>
+                                    Live Demo
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                                <a href="https://github.com/muzzammilahmed18/nestly" target="_blank"
+                                    rel="noreferrer noopener" class="project-link">
+                                    <i class="fa-brands fa-github"></i>
+                                    View on GitHub
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-visual">
+                            <div class="project-visual-inner">
+                                <span class="project-visual-category">Full-Stack · Vacation Rental</span>
+                                <p class="project-visual-title">Nestly</p>
+                                <p class="project-visual-subtitle">Full-Stack Vacation Rental Platform</p>
+                                <div class="project-visual-tech">
+                                    <span>React</span>
+                                    <span>TypeScript</span>
+                                    <span>Node.js</span>
+                                    <span>PostgreSQL</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Usage-Based SaaS Billing Engine -->
+                    <article class="project-card" data-reveal data-delay="0.08" data-project>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <span class="project-number">02</span>
+                                <span class="project-category">Backend · SaaS · Billing</span>
+                            </div>
+                            <h3 class="project-title">Usage-Based SaaS Billing Engine</h3>
+                            <p class="project-subtitle">Metering &amp; Billing for SaaS Applications</p>
+                            <p class="project-description">
+                                Production-oriented metering and billing backend for SaaS applications — built during
+                                internship at FlyRank AI. Idempotent usage APIs using DB constraints to prevent duplicate
+                                charges; real-time quota enforcement blocking requests (HTTP 402) on limit breaches;
+                                relational data model linking tenants, subscriptions, and usage events; Stripe Checkout
+                                and webhook integration for automated subscription billing workflows.
+                            </p>
+                            <ul class="project-tech">
+                                <li>Node.js</li>
+                                <li>TypeScript</li>
+                                <li>Express</li>
+                                <li>PostgreSQL</li>
+                                <li>Drizzle ORM</li>
+                                <li>Docker</li>
+                                <li>Stripe API</li>
+                            </ul>
+                            <a href="https://github.com/muzzammilahmed18/flyrank-capstone-metering-billing"
+                                target="_blank" rel="noreferrer noopener" class="project-link">
                                 <i class="fa-brands fa-github"></i>
                                 View on GitHub
                                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -448,24 +595,24 @@
                         </div>
                         <div class="project-visual">
                             <div class="project-visual-inner">
-                                <span class="project-visual-category">Full-Stack · AI</span>
-                                <p class="project-visual-title">SmartLearn</p>
-                                <p class="project-visual-subtitle">AI-Powered Study Platform</p>
+                                <span class="project-visual-category">Backend · SaaS · Billing</span>
+                                <p class="project-visual-title">Usage-Based SaaS Billing Engine</p>
+                                <p class="project-visual-subtitle">Metering &amp; Billing for SaaS</p>
                                 <div class="project-visual-tech">
-                                    <span>React</span>
-                                    <span>TypeScript</span>
                                     <span>Node.js</span>
-                                    <span>Express</span>
+                                    <span>TypeScript</span>
+                                    <span>PostgreSQL</span>
+                                    <span>Stripe</span>
                                 </div>
                             </div>
                         </div>
                     </article>
 
-                    <!-- Project 2 -->
-                    <article class="project-card" data-reveal data-delay="0.08" data-project>
+                    <!-- Project 3: RideFleet Pro -->
+                    <article class="project-card" data-reveal data-delay="0.16" data-project>
                         <div class="project-content">
                             <div class="project-header">
-                                <span class="project-number">02</span>
+                                <span class="project-number">03</span>
                                 <span class="project-category">Full-Stack · Systems</span>
                             </div>
                             <h3 class="project-title">RideFleet Pro</h3>
@@ -482,7 +629,8 @@
                                 <li>CSS3</li>
                                 <li>JavaScript</li>
                             </ul>
-                            <a href="https://github.com/muzzammilahmed18/ridefleet-pro" target="_blank" rel="noreferrer noopener" class="project-link">
+                            <a href="https://github.com/muzzammilahmed18/ridefleet-pro" target="_blank"
+                                rel="noreferrer noopener" class="project-link">
                                 <i class="fa-brands fa-github"></i>
                                 View on GitHub
                                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -492,52 +640,12 @@
                             <div class="project-visual-inner">
                                 <span class="project-visual-category">Full-Stack · Systems</span>
                                 <p class="project-visual-title">RideFleet Pro</p>
-                                <p class="project-visual-subtitle">Fleet Management &amp; Ride Booking System</p>
+                                <p class="project-visual-subtitle">Fleet Management &amp; Ride Booking</p>
                                 <div class="project-visual-tech">
                                     <span>Python Flask</span>
                                     <span>MySQL</span>
                                     <span>HTML5</span>
                                     <span>CSS3</span>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-
-                    <!-- Project 3 -->
-                    <article class="project-card" data-reveal data-delay="0.16" data-project>
-                        <div class="project-content">
-                            <div class="project-header">
-                                <span class="project-number">03</span>
-                                <span class="project-category">AI · Conversational</span>
-                            </div>
-                            <h3 class="project-title">AI Customer Support Chatbot</h3>
-                            <p class="project-subtitle">Intent-Aware Support Assistant</p>
-                            <p class="project-description">
-                                Customer support chatbot that recognizes common user intents such as greetings, pricing
-                                inquiries, complaints, and support requests. Provides predefined responses for known
-                                queries and integrates Groq's LLaMA model to generate intelligent responses for unknown
-                                questions.
-                            </p>
-                            <ul class="project-tech">
-                                <li>Python</li>
-                                <li>Streamlit</li>
-                                <li>Groq LLaMA API</li>
-                            </ul>
-                            <a href="https://github.com/muzzammilahmed18/chatbot-intent-recognition" target="_blank" rel="noreferrer noopener" class="project-link">
-                                <i class="fa-brands fa-github"></i>
-                                View on GitHub
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                        </div>
-                        <div class="project-visual">
-                            <div class="project-visual-inner">
-                                <span class="project-visual-category">AI · Conversational</span>
-                                <p class="project-visual-title">AI Customer Support Chatbot</p>
-                                <p class="project-visual-subtitle">Intent-Aware Support Assistant</p>
-                                <div class="project-visual-tech">
-                                    <span>Python</span>
-                                    <span>Streamlit</span>
-                                    <span>Groq LLaMA</span>
                                 </div>
                             </div>
                         </div>
